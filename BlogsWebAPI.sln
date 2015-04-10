@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogsWebAPI", "BlogsWebAPI\BlogsWebAPI.csproj", "{CE63D410-0C19-4F86-987D-C0401AD55AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogsWebAPI.Data", "BlogsWebAPI.Data\BlogsWebAPI.Data.csproj", "{8D5E5D45-3C51-4A03-B6A5-2F36B0F4A4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogsWebAPI.Model", "BlogsWebAPI.Model\BlogsWebAPI.Model.csproj", "{000944C0-C00D-4674-8301-DB7C478D9607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE63D410-0C19-4F86-987D-C0401AD55AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE63D410-0C19-4F86-987D-C0401AD55AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE63D410-0C19-4F86-987D-C0401AD55AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE63D410-0C19-4F86-987D-C0401AD55AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5E5D45-3C51-4A03-B6A5-2F36B0F4A4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5E5D45-3C51-4A03-B6A5-2F36B0F4A4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5E5D45-3C51-4A03-B6A5-2F36B0F4A4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5E5D45-3C51-4A03-B6A5-2F36B0F4A4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000944C0-C00D-4674-8301-DB7C478D9607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000944C0-C00D-4674-8301-DB7C478D9607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000944C0-C00D-4674-8301-DB7C478D9607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000944C0-C00D-4674-8301-DB7C478D9607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

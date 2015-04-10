@@ -1,0 +1,15 @@
+﻿<div ng-controller="HomeController">
+    <div ng-show="!status.isLoggedIn">
+        <input placeholder="Username" class="form-control" ng-model="user.username" />
+        <input placeholder="Password" class="form-control" ng-model="user.password" />
+        <button ng-click="login()" class="btn btn-default">Submit</button>
+    </div>
+    <div ng-show="status.isLoggedIn">
+        <button ng-click="logout()" class="btn btn-default">Logout</button>
+        <div class="well" ng-repeat="b in blogs">
+            {{b.Description}}<br />
+            {{b.DateCreated}}<br />
+
+        </div>
+    </div>
+</div>
